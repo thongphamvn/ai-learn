@@ -1,0 +1,10 @@
+{
+  "python.analysis.diagnosticSeverityOverrides": {
+    "C0116": "none",
+  },
+  "pylint.ignorePatterns": [
+    "**/site-packages/**/*.py",
+    ".vscode/*.py",
+    "venv/*.py",
+  ]
+}
